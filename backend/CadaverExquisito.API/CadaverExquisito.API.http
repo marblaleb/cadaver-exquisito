@@ -1,0 +1,6 @@
+@CadaverExquisito.API_HostAddress = http://localhost:5089
+
+GET {{CadaverExquisito.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
