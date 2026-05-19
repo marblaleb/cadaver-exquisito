@@ -1,0 +1,26 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+
+# Flutter/Dart
+frontend/cadaver_exquisito_app/.dart_tool/
+frontend/cadaver_exquisito_app/build/
+frontend/cadaver_exquisito_app/.flutter-plugins
+frontend/cadaver_exquisito_app/.flutter-plugins-dependencies
+frontend/cadaver_exquisito_app/.packages
+frontend/cadaver_exquisito_app/pubspec.lock
+
+# Environment / secrets
+appsettings.Development.json
+*.env
+serviceAccountKey.json
+google-services.json
+GoogleService-Info.plist
+
+# OS
+.DS_Store
+Thumbs.db
