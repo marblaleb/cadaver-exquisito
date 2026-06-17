@@ -1,5 +1,8 @@
 class Endpoints {
-  static const _base = 'http://10.0.2.2:5000/api'; // Android emulator → localhost
+  // In debug builds: target local backend on Windows/Chrome.
+  // In release: point to prod URL.
+  static const _base = String.fromEnvironment('API_BASE',
+      defaultValue: 'http://localhost:5089/api');
 
   static const register = '$_base/auth/register';
   static const updateFcmToken = '$_base/auth/fcm-token';
